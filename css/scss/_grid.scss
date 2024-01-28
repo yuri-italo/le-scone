@@ -7,11 +7,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background: blue;
-}
-.container::after, .container::before {
-  content: "";
-  display: table;
-  clear: both;
+  &::after, &::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 .grid-3 {
@@ -22,5 +22,3 @@ body {
   color: white;
   float: left;
 }
-
-/*# sourceMappingURL=style.css.map */
